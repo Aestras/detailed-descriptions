@@ -24,7 +24,7 @@ public class WizardMonkeyUpgrades : UpgradeDetailedDescriptions
         {UpgradeType.ArcaneSpike, "<u>Bolt</u> buffed: +3d (6), +10md, +1cd, 50%s (0.275), <u>Plasma</u>. <u>Fireball</u> buffed: +6md. <u>Wall of Fire</u> buffed: +2md."},
         {
             UpgradeType.Archmage,
-            "All attacks: 50%s. <u>Bolt</u> buffed: +2d (8), +9md (19), +4p (11, 16 w/ 501), 50%s (0.1375).\nGains <u>Dragons Breath</u> (2d, +8cd, 3p (5 w/ 501), 0.0675s, <i>Fire/i>) that applies <u>Burn</u> status (1d/1.5s, <i>Fire</i>, 3s duration) and <u>Shimmer</u> (0d, 500p, 75r zone (87.5 w/ 502), De-Camo) attacks.\n<u>Fireball</u>: +7d (9), +18md (24), +4p (23). <u>Wall of Fire</u>: +4md (6)."
+            "All attacks: 50%s. <u>Bolt</u> buffed: +2d (8), +9md (19), +4p (11, 16 w/ 501), 50%s (0.1375). Gains <u>Dragons Breath</u> (2d, +8cd, 3p (5 w/ 501), 0.0675s, <i>Fire/i>) that applies <u>Burn</u> status (1d/1.5s, <i>Fire</i>, 3s duration) and <u>Shimmer</u> (0d, 500p, 75r zone (87.5 w/ 502), De-Camo) attacks. <u>Fireball</u>: +7d (9), +18md (24), +4p (23). <u>Wall of Fire</u>: +4md (6)."
         },
 
         {
@@ -57,7 +57,7 @@ public class WizardMonkeyUpgrades : UpgradeDetailedDescriptions
             "Necromancer: Unpopped Army",
             "Stores up to 500 pops within 70r in <u>Graveyard</u> for 2 rounds (pops worth 7-10 after round 80). " +
             "Gains <u>Reanimate</u> attack (1.5s (-10% per 100 current <u>Graveyard</u>), spawns 1-4 <u>Zombloons</u>, costs 1-10 <u>Graveyard</u> pops.). " +
-            "<u>Zombloon</u>: 2d, 2p (+1 per pop used), <i>Normal</i>, 7s lifetime.\nAll attacks: +1d per 200 current <u>Graveyard</u>."
+            "<u>Zombloon</u>: 2d, 2p (+1 per pop used), <i>Normal</i>, 7s lifetime. All attacks: +1d per 200 current <u>Graveyard</u>."
         },
         {
             UpgradeType.PrinceOfDarkness,
