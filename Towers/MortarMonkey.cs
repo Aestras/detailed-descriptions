@@ -49,7 +49,7 @@ public class MortarMonkeyUpgrades : UpgradeDetailedDescriptions
         { UpgradeType.ShatteringShells, "<u>Shell</u> buffed: De-Grow, De-Fortify up to BFB. <u>Burn</u> status buffed: +4d (5, 8 2/ 204), +20md (25 w/ 204)." },
         {
             UpgradeType.Blooncineration,
-            "<u>Shell</u> buffed: De-Fortify up to DDT. <u>Burn</u> status buffed: 5d/0.75s (8 w/ 205), +75md (90, 142 w/ 205). Gains <u>Firewall</u> attack: (1d (3 w/ 205), 20p (36 w/ 105), 15r (21 w/ 105), rehits every 0.1s, duration 4.5s).
+            "<u>Shell</u> buffed: De-Fortify up to DDT. <u>Burn</u> status buffed: 5d/0.75s (8 w/ 205), +75md (90, 142 w/ 205). Gains <u>Firewall</u> attack: (1d (3 w/ 205), 20p (36 w/ 105), 15r (21 w/ 105), rehits every 0.1s, duration 4.5s)."
         },
     };
 }
