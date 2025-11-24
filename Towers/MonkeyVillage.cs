@@ -8,7 +8,7 @@ public class MonkeyVillageTower : TowerDetailedDescription
 {
     protected override string TowerId => TowerType.MonkeyVillage;
 
-    public override string TextValue => "<u>Buff</u> effect (40r; grants: +10%r).";
+    public override string TextValue => "40r. <u>Buff</u> effect (grants: +10%r).";
 }
 
 public class MonkeyVillageUpgrades : UpgradeDetailedDescriptions
@@ -23,21 +23,21 @@ public class MonkeyVillageUpgrades : UpgradeDetailedDescriptions
         },
         {
             UpgradeType.PrimaryMentoring,
-            "<u>Primary Buff</u> improved: free tier 1 upgrades, +5r, 90% ability cooldowns."
+            "+7r (55).<u>Primary Buff</u> improved: free tier 1 upgrades, +5r, 85% ability cooldowns."
         },
         {
             UpgradeType.PrimaryExpertise,
-            "+7r (55). <u>Primary Buff</u> improved: +2p (so +3 overall), free tier 2 upgrades. 80% ability cooldowns. " +
-            "Gains <u>Catapult</u> attack (10d, 190cd (200), 190md (200), 100p but Blimps use 10p, ∞r, 2.5s, <i>Normal</i>, Camo)."
+            "+<u>Primary Buff</u> improved: +2p (3), free tier 2 upgrades. 75% ability cooldowns. " +
+            "Gains <u>Catapult</u> attack (10d, +270cd, +270md, 100p but Blimps use 10p, ∞r, 3s, <i>Normal</i>, Camo, bounces up to 90u)."
         },
 
-        {UpgradeType.GrowBlocker, "Applies Anti-regrow status to Bloons in range."},
+        {UpgradeType.GrowBlocker, "Applies <u>Anti-Regrow</u> status to Bloons in range."},
         {UpgradeType.RadarScanner, "Buff improved: Grants Camo."},
         {UpgradeType.MonkeyIntelligenceBureau, "Buff improved: grants <i>Normal</i> damage."},
-        {UpgradeType.CallToArms, "Ability (45s cooldown): Provides another buff for 15s (+50%p, 66.67%s)."},
+        {UpgradeType.CallToArms, "Ability (45s cooldown): Provides another buff for 15s (+50%p, 75%s)."},
         {
             UpgradeType.HomelandDefense,
-            "Ability (60s cooldown): Applies over an infinite range for 20s, and improved to (+100%p, 50%s)."
+            "Ability (45s cooldown): Applies over an infinite range for 20s, and improved to (+100%p, 50%s)."
         },
 
         {UpgradeType.MonkeyBusiness, "<u>Buff</u> improved: +10% discount to base towers and upgrades up to tier 3."},
@@ -48,7 +48,7 @@ public class MonkeyVillageUpgrades : UpgradeDetailedDescriptions
         {UpgradeType.MonkeyTown, "<u>Buff</u> improved: +50% cash modifier (additive with other cash modifiers)."},
         {
             UpgradeType.MonkeyCity,
-            "+10r (50). Provides a free Dart Monkey each round. Gains <u>Support Buff</u> (targets: income towers; grants: +15% income)."
+            "+10r (50). Provides a free Dart Monkey each round. Gains <u>Support Buff</u> (targets: income towers; grants: +20% income)."
         },
         {
             UpgradeType.Monkeyopolis,

@@ -19,22 +19,22 @@ public class GlueGunnerUpgrades : UpgradeDetailedDescriptions
         {UpgradeType.GlueSoak, "<u>Glued</u> status soaks through all non-Blimp layers."},
         {
             UpgradeType.CorrosiveGlue,
-            "<u>Glued</u> status buffed: 1d/2s and can overwrites weaker effects. <u>Glue</u> can affect Blimps, but lasts half as long and doesn't slow."
+            "<u>Glued</u> status buffed: 1d/2s and can overwrites weaker effects. <u>Glue</u> can affect Blimps, but doesn't slow and immediately expires."
         },
-        {UpgradeType.BloonDissolver, "+1p (2). <u>Glued</u> status buffed: 1d/.575s, +1cd (2)"},
-        {UpgradeType.BloonLiquefier, "+1cd <u>Glued</u> status buffed: 1d/.1s"},
-        {UpgradeType.TheBloonSolver, "2j, 4p, 25%s (0.25), impact. <u>Glued</u> status buffed: +8cd/0.1s and +5md/0.1s."},
+        {UpgradeType.BloonDissolver, "+1p (2), +50%s (0.5). <u>Glued</u> status buffed: 1d/.5s, 2cd/.5 (2)"},
+        {UpgradeType.BloonLiquefier, "<u>Glued</u> status buffed: 1d/.1s, 2cd/.1s. <u>Glued</u> Bloons drop <u>Puddles</u> (4d, 3p (4 w/ 410), 7.7s (16.8 w/ 401) duration, <i>Acid</i>)) on pop."},
+        {UpgradeType.TheBloonSolver, "2j, 4p, 25%s (0.25), impact. <u>Glued</u> status buffed: +8cd/0.1s and +4md/0.1s. <u>Puddles</u> buffed: 15d, 4p (5 w/ 510)."},
 
         {UpgradeType.BiggerGlobs, "+1p (2)"},
-        {UpgradeType.GlueSplatter, "+4p (6), impact"},
-        {UpgradeType.GlueHose, "33.33%s (0.333)"},
+        {UpgradeType.GlueSplatter, "+2p (4), impact (1p)"},
+        {UpgradeType.GlueHose, "33.33%s (0.333), +12r (58)"},
         {
             UpgradeType.GlueStrike,
-            "Ability (30s cooldown): Applies weakening-glue (take +2d, allows <i>Sharp</i>to pop Lead) to all Bloons, (+Blimps w/ 240). Soaks 6 layers. Will refresh duration of stronger glue instead of replacing."
+            "Ability (30s cooldown): Applies buffed <u>Glued</u> (take +2d (+3 w/ 240), removes Lead + Frozen immunities) to all Bloons, (+Blimps w/ 240). Soaks 3 (∞ w/ 140) layers. Will refresh duration of stronger glue instead of replacing."
         },
         {
             UpgradeType.GlueStorm,
-            "Ability (30s cooldown): Every 2s for the next 15s, applies weakening-glue to all valid targets with twice the duration and slowing power of standard attack. Soaks 9 layers."
+            "Ability buffed (40s cooldown): Every second for 10s, applies <u>Glued</u> to all valid targets with twice the duration."
         },
 
         {UpgradeType.StickierGlue, "<u>Glued</u> status buffed: +13s duration (24s)."},
